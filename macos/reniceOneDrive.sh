@@ -5,9 +5,9 @@
 #
 #  renice defines the priority from low(20) to high (-20). Yes -20 the highest performance :)
 #
-for f in $(pgrep 'Backup and Sync'; pgrep 'OneDrive'); 
-do renice +20 -p $f; 
-echo "Set process PID " + $f + " to priority according to "
+for f in $(pgrep 'FinderSync'; pgrep 'OneDrive');     
+do renice +20 -p $f;
+echo "Set process PID " $f " to priority according to "
 ps -fl -C $f
 done
 #
