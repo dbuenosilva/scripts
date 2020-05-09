@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Label</key>
+	<string>com.gwaya.reniceOneDrive</string>
+	<key>MachServices</key>
+	<dict>
+		<key>ccom.gwaya.reniceOneDrive</key>
+		<true/>
+	</dict>
+	<key>Program</key>
+	<string>/etc/reniceOneDrive.sh</string>
+	<key>ProgramArguments</key>
+	<array/>
+	<key>StandardErrorPath</key>
+	<string>/Library/Logs/gwaya/reniceOneDrive.log</string>
+	<key>StandardOutPath</key>
+	<string>/Library/Logs/gwaya/out/reniceOneDrive.log</string>
+    <key>StartInterval</key>
+    <integer>120</integer>	
+    <key>RunAtLoad</key>
+    <true/>
+</dict>
+</plist>
